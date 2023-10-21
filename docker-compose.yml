@@ -1,0 +1,9 @@
+services:
+  ubuntu:
+    build: ./
+    volumes:
+      - .:/kernel-module-rust
+    #command: echo "hello"
+    tty: true
+    #stdin_open: true
+    
